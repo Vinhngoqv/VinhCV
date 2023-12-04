@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | Vinh Ngo</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Portfolio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#workexperience">Work experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#activity">Activity</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Ngo Quang Vinh</h1>
+            <h3>I'm a <span> Mechatronics Engineer</span></h3>
+            <p>
+                Around a 2-year career in IoT and Automation, the progress that I have achieved while being an engineer motivates me to immerse myself in this field. 
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/Vinhngoqv"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/quang-vinh-ngo/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="mailto:vinhngoqv@gmail.com"><i class='bx bx-envelope' ></i></a>
+            </div>
+            <!-- <a href="#" class="btn">Download CV</a> -->
+            <h2>Skills</h2>
+            <div class="skills-box"> 
+                <div class="skills-content">
+                    <div class="content">
+                        <span><img src="images/cplusplus.png" alt="">C/C++</span>
+                        <span><img src="images/c-sharp.png" alt="">C#</span>
+                        <span><img src="images/matlab.png" alt="">Matlab</span>
+                        <span><img src="images/python.png" alt="">Python</span>
+                    </div>
+                </div>
+
+                <p>&bull; <b>Microcontrollers:</b> &nbsp;&nbsp; PIC, Raspberry, Arduino, LattePanda.</p>
+                <p>&bull; <b>Knowledge:</b> &nbsp;&nbsp; Analog/Digital signal, UART, I2C, SPI, Timer, Interrupt, TCP, Socket, RTSP, Camera streaming, Network.</p>
+                <p>&bull; <b>Software:</b> &nbsp;&nbsp; Proteus, Matlab, AutoCAD, Solidwork, Unity.</p>
+                <p>&bull; <b>Language:</b> &nbsp;&nbsp; English (IELTS 5.5 in 2017, TOEIC 785 in 2022).</p>
+                <p>&bull; <b>Key words:</b> &nbsp; IoT, Computer vision, Embedded system, Monitoring software.</p>
+            </div>
+        
+            <div class="publication-contents">
+                <h2>Publications</h2>
+                <p>&bull; <b>SCI</b> - Robust Lane Detection Algorithm for Autonomous Trucks in Container Terminal – Journal of Marine Science and Engineering.</p>
+                <a href="https://doi.org/10.3390/jmse11040731">https://doi.org/10.3390/jmse11040731</a>
+                <p>&bull; <b>Scopus</b> - Optimal Decision Making for Empty Container Management at Seaport Yard – LogForum.</p>
+                <a href="http://doi.org/10.17270/J.LOG.2023.801">http://doi.org/10.17270/J.LOG.2023.801</a>
+                <p>&bull; <b>KCI</b> - 3D Mapping for Improving the Safety of Autonomous Driving in Container Terminal.</p>
+                <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003013568">https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003013568</a>
+            </div>
+
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h1>Education</h1>
+        <div class="education-box">
+            <div class="education-content">
+                <span class="year"><i class='bx bxs-calendar'></i><b>03/2022 - 02/2024, South Korea</b></span>
+                <h2>Master of Logistics Engineering - National Korea Maritime and Ocean University (KMOU)</h2>
+                <p>&bull; <b>GPA:</b> 4.44/4.5</p>
+                <p>&bull; <b>Thesis:</b> "A Study on the Robust Lane and Object Detection for Container Terminal Monitoring"</p>
+                <p>&bull; A full scholarship for a Master’s course.</p>
+                <p>&bull; Three research paper publications within two years.</p>
+                <p>&bull; Mathematics model for Machine Learning and Deep Learning.</p>
+                <p>&bull; Presenting at two International Conferences (KINPR 2023, ICACE 2023).</p>
+            </div>
+            <div class="conference-img">
+                <div class="kinpr">
+                    <img src="images/kinpr2023.jpg" alt="">
+                </div>
+                <div class="icace">
+                    <img src="images/icace2023.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="education-content"> 
+                <span class="year"><i class='bx bxs-calendar'></i><b>08/2017 - 11/2021, Vietnam</b></span>
+                <h2>Engineer of Mechatronics - Ho Chi Minh City University of Technology (HCMUT)</h2>
+                <p>&bull; <b>GPA:</b> 7.68/10</p>
+                <p>&bull; <b>Thesis:</b> "A Hand Glove for Sign Language Converter"</p>
+                <div class="thesis-content">
+                    <p>&square; <b>Funtion:</b> Letter (A-Z), Number (0-9), and special signs converter.</p>
+                    <p>&square; <b>Programing Language:</b> C, Matlab.</p>
+                    <p>&square; <b>MCU:</b> PIC16F877A.</p>
+                    <p>&square; <b>Key words:</b> Analog/Digital Converter,  Kalman, IMU, UART, UI, 3D Simulation.</p>
+                </div>
+
+                <p>&bull; <b>Project:</b> "Line Tracking Mobile Robot"</p>
+                <div class="education-project">
+                    <p>&square; <b>Funtion:</b> Line tracking robot.</p>
+                    <p>&square; <b>Programing Language:</b> C, Matlab.</p>
+                    <p>&square; <b>MCU:</b> PIC16F877A.</p>
+                    <p>&square; <b>Key words:</b> IR Sensor, Analog/Digital Converter, Kalman, I2C, PID controller, Simulation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- work experience-->
+    <section class="workexperience" id="workexperience"> 
+        <h1>Work experience</h1>
+        <div class="work-box">
+            <div class="work-content">
+                <span class="year"><i class='bx bxs-calendar'></i><b>03/2022 - 02/2024, South Korea</b></span>
+                <h2>Research Assistance - Northeast-Asia Shipping and Port Logistics Research Center</h2>
+                <h3>Project: Reach Stacker Assistance</h3>
+                <p>&bull; <b>Description:</b> Design IoT module for Reach Stacker at Container Terminal.</p>
+                <p>&bull; <b>Funtion:</b> GPS tracking, Object detection, OCR, Remote monitoring software.</p>
+                <p>&bull; <b>Programing Language:</b> C#, Python.</p>
+                <p>&bull; <b>Microcontroller:</b> LattePanda 3 Delta.</p>
+                <p>&bull; <b>Key words:</b> UART, TCP, Socket, Streaming, Real-time, Yolov8, FFmpeg.</p>
+
+                <h3>Project: Smart Logistics</h3>
+                <p>&bull; <b>Description:</b> Design IoT modules for workers, forklifts, and CCTV camera system for remote warehouse monitoring.</p>
+                <p>&bull; <b>Funtion:</b> Human status recognition, Position tracking, Object detection, Remote monitoring software.</p>
+                <p>&bull; <b>Programing Language:</b> C/C++, C#, Python.</p>
+                <p>&bull; <b>Microcontroller:</b> Arduino, Raspberry.</p>
+                <p>&bull; <b>Key words:</b> IMU, UWB, Kalman, TCP, Socket, RTSP, Streaming, Real-time, Yolov8, FFmpeg.</p>
+
+                <h3>Project: 3D Terminal Map</h3>
+                <p>&bull; <b>Description:</b> Develop a 3D mapping program for container terminal.</p>
+                <p>&bull; <b>Funtion:</b> 3D mapping in Unity, Object detection</p>
+                <p>&bull; <b>Programing Language:</b> C#, Python.</p>
+                <p>&bull; <b>Software:</b> Unity.</p>
+                <p>&bull; <b>Key words:</b> TCP, Socket, RTSP, Streaming, Real-time, SSD model, FFmpeg.</p>
+            </div>
+
+            <div class="work-content"> 
+                <span class="year"><i class='bx bxs-calendar'></i><b>06/2020 - 09/2020, Vietnam</b></span>
+                <h2>Internship - Long Huei Cooperation</h2>
+                <h3>Project: Automatic rubber-cutting machine</h3>
+                <p>&bull; <b>Description:</b> Design a rubber-cutting machine for helmets.</p>
+                <p>&bull; <b>Key words:</b> PID Control, Encoder.</p>
+            </div>
+            
+            <div class="work-content">
+                <span class="year"><i class='bx bxs-calendar'></i><b>06/2019 - 09/2019, Vietnam</b></span>
+                <h2>Internship - Autoss Cooperation</h2>
+                <p>&bull; Working with Industrial robots, especially Welding robots. (Yaskawa, Nachi, OTC - Daihen).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/project1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Reach Stacker Assistance</h4>
+                    <p>&bull; <b>Description:</b> Design IoT module for Reach Stacker at Container Terminal.</p>
+                    <p>&bull; <b>Funtion:</b> GPS tracking, Object detection, OCR, Remote monitoring software.</p>
+                    <p>&bull; <b>Programing Language:</b> C#, Python.</p>
+                    <p>&bull; <b>Microcontroller:</b> LattePanda 3 Delta.</p>
+                    <p>&bull; <b>Key words:</b> UART, TCP, Socket, Streaming, Real-time, Yolov8, FFmpeg.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project2.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Smart Logistics</h4>
+                    <p>&bull; <b>Description:</b> Design IoT modules for workers, forklifts, and CCTV camera systems for remote warehouse monitoring.</p>
+                    <p>&bull; <b>Funtion:</b> Human status recognition, Position tracking, Object detection, Remote monitoring software.</p>
+                    <p>&bull; <b>Programing Language:</b> C/C++, C#, Python.</p>
+                    <p>&bull; <b>Microcontroller:</b> Arduino, Raspberry.</p>
+                    <p>&bull; <b>Key words:</b> IMU, UWB, Kalman, TCP, Socket, RTSP, Streaming, Real-time, Yolov8, FFmpeg.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project3.jpg" alt="">
+                <div class="project-layer">
+                    <h4>3D Terminal Map</h4>
+                    <p>&bull; <b>Description:</b> Develop a 3D mapping program for container terminal.</p>
+                    <p>&bull; <b>Funtion:</b> 3D mapping in Unity, Object detection</p>
+                    <p>&bull; <b>Programing Language:</b> C#, Python.</p>
+                    <p>&bull; <b>Software:</b> Unity.</p>
+                    <p>&bull; <b>Key words:</b> TCP, Socket, RTSP, Streaming, Real-time, SSD model, FFmpeg.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project4.jpg" alt="">
+                <div class="project-layer">
+                    <h4>A Hand Glove for Sign Language Converter</h4>
+                    <p>&bull; <b>Funtion:</b> Letter (A-Z), Number (0-9), and special signs converter.</p>
+                    <p>&bull; <b>Programing Language:</b> C, Matlab.</p>
+                    <p>&bull; <b>MCU:</b> PIC16F877A.</p>
+                    <p>&bull; <b>Key words:</b> Analog/Digital Converter,  Kalman, IMU, UART, UI, 3D Simulation.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project5.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Line Tracking Mobile Robot</h4>
+                    <p>&bull; <b>Funtion:</b> Line tracking robot.</p>
+                    <p>&bull; <b>Programing Language:</b> C, Matlab.</p>
+                    <p>&bull; <b>MCU:</b> PIC16F877A.</p>
+                    <p>&bull; <b>Key words:</b> IR Sensor, Analog/Digital Converter, Kalman, I2C, PID controller, Simulation.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- activity section -->
+    <section class="activity" id="activity">
+        <h1>Activity</h1>
+        <div class="activity-container">
+            <div class="activity-box">
+                <img src="images/activity1.JPG" alt="">
+                <div class="activity-content">
+                    <h4>Sport</h4>
+                    <p>&bull; A leader of the Vietnamese football club at KMOU.</p>
+                    <p>&bull; Manage and hold friendly football matches with Korean and International students every week.</p>
+                </div>
+            </div>
+
+            <div class="activity-box-1">
+                <div class="activity-content-1">
+                    <h4>Social</h4>
+                    <p>&bull; A medical volunteer against the COVID-19 pandemic.</p>
+                    <p>&bull; Support community activities at local government.</p>
+                </div>
+                <img src="images/activity2.JPG" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Powered by Vinhngoqv | 2023</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow-square'></i></a>
+        </div>
+    </footer>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
